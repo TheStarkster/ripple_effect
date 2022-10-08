@@ -17,7 +17,7 @@ class RippleData {
   late BoxShape shape;
   late double inflateMultiplier;
 
-  late Rect? rect;
+  late Rect rect;
 
   Widget toWidget() {
     if (rect == null) {
